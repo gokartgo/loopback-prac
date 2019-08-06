@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "Todo": 4
+  },
+  "models": {
+    "Todo": {
+      "1": "{\"title\":\"test1\",\"isComplete\":true,\"_id\":\"1\"}",
+      "2": "{\"title\":\"test2\",\"isComplete\":true,\"_id\":\"2\"}",
+      "3": "{\"title\":\"test3\",\"isComplete\":true,\"_id\":\"3\"}"
+    }
+  }
+}
