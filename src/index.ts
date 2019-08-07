@@ -1,3 +1,4 @@
+require('dotenv').config();
 import {Lb4PracApplication} from './application';
 import {ApplicationConfig} from '@loopback/core';
 

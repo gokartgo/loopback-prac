@@ -1,12 +1,19 @@
 {
   "ids": {
-    "Todo": 4
+    "Todo": 5,
+    "Character": 4
   },
   "models": {
     "Todo": {
       "1": "{\"title\":\"test1\",\"isComplete\":true,\"_id\":\"1\"}",
       "2": "{\"title\":\"test2\",\"isComplete\":true,\"_id\":\"2\"}",
-      "3": "{\"title\":\"test3\",\"isComplete\":true,\"_id\":\"3\"}"
+      "3": "{\"title\":\"test3\",\"isComplete\":true,\"_id\":\"3\"}",
+      "4": "{\"title\":\"string\",\"isComplete\":true,\"_id\":\"4\"}"
+    },
+    "Character": {
+      "2": "{\"name\":\"string\",\"level\":0,\"nextLevelExp\":0,\"currentExp\":0,\"maxHealth\":0,\"currentHealth\":0,\"maxMana\":0,\"currentMana\":0,\"attach\":0,\"defence\":0,\"id\":\"2\"}",
+      "3": "{\"name\":\"string\",\"level\":0,\"nextLevelExp\":0,\"currentExp\":0,\"maxHealth\":0,\"currentHealth\":0,\"maxMana\":0,\"currentMana\":0,\"attach\":0,\"defence\":0,\"id\":\"3\"}",
+      "fc57b06d-5d19-4842-93c7-e98b13bd314f": "{\"id\":\"fc57b06d-5d19-4842-93c7-e98b13bd314f\",\"name\":\"test\",\"level\":0,\"nextLevelExp\":0,\"currentExp\":0,\"maxHealth\":0,\"currentHealth\":0,\"maxMana\":0,\"currentMana\":0,\"attach\":0,\"defence\":0}"
     }
   }
 }

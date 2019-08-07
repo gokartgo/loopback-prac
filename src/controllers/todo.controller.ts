@@ -40,7 +40,7 @@ export class TodoController {
         },
       },
     })
-    todo: Omit<Todo, 'id'>,
+    todo: Omit<Todo, '_id'>,
   ): Promise<Todo> {
     return this.todoRepository.create(todo);
   }
