@@ -30,7 +30,8 @@
     "migrate": "node ./dist/migrate",
     "prestart": "npm run build",
     "start": "node -r source-map-support/register .",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git"
@@ -45,6 +46,17 @@
     "src",
     "!*/__tests__"
   ],
+  "nodemonConfig": {
+    "verbose": true,
+    "watch": [
+    "src/"
+    ],
+    "ignore": [
+    "dist/*"
+    ],
+    "ext": "ts",
+    "exec": "npm start"
+  },
   "dependencies": {
     "@loopback/authentication": "^2.1.8",
     "@loopback/boot": "^1.5.0",
@@ -71,6 +83,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-eslint-plugin": "^2.1.0",
     "eslint-plugin-mocha": "^6.0.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "nodemon": "^1.19.1"
   }
 }

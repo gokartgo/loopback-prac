@@ -67,7 +67,7 @@ export class Character extends Entity {
     type: 'number',
     default: 20,
   })
-  attach?: number;
+  attack?: number;
 
   @property({
     type: 'number',
